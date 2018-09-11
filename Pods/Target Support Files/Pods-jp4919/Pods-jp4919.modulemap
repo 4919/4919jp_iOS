@@ -1,0 +1,6 @@
+framework module Pods_jp4919 {
+  umbrella header "Pods-jp4919-umbrella.h"
+
+  export *
+  module * { export * }
+}
