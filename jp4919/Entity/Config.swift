@@ -9,8 +9,8 @@
 struct Config{
     
     enum urlStr : String{
-        case areas = "https://api.github.com/repos/4919/4919DB/contents/Identifiers/4919_areas.csv"
-        case distribuors = "https://api.github.com/repos/4919/4919DB/contents/Identifiers/4919_distributors.csv"
+        case areas = "https://api.github.com/repos/4919/4919DB/contents/Identifiers/areas.csv"
+        case distribuors = "https://api.github.com/repos/4919/4919DB/contents/Identifiers/distributors.csv"
     }
     
     
