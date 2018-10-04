@@ -72,49 +72,49 @@
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TUy-2f-CMn">
                                                                 <rect key="frame" x="37.666666666666657" y="0.0" width="300" height="29.333333333333332"/>
                                                                 <fontDescription key="fontDescription" name="Tanuki-Permanent-Marker" family="Tanuki Permanent Marker" pointSize="18"/>
-                                                                <state key="normal" title="ごはん">
+                                                                <state key="normal">
                                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </state>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i14-MY-a0f">
                                                                 <rect key="frame" x="37.666666666666657" y="29.333333333333343" width="300" height="29"/>
                                                                 <fontDescription key="fontDescription" name="Tanuki-Permanent-Marker" family="Tanuki Permanent Marker" pointSize="18"/>
-                                                                <state key="normal" title="ぎゅうにゅう">
+                                                                <state key="normal">
                                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </state>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9zK-Kv-3KC">
                                                                 <rect key="frame" x="37.666666666666657" y="58.33333333333335" width="300" height="29.333333333333336"/>
                                                                 <fontDescription key="fontDescription" name="Tanuki-Permanent-Marker" family="Tanuki Permanent Marker" pointSize="18"/>
-                                                                <state key="normal" title="はるまき">
+                                                                <state key="normal">
                                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </state>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w0q-dy-jfA">
                                                                 <rect key="frame" x="37.666666666666657" y="87.666666666666657" width="300" height="29"/>
                                                                 <fontDescription key="fontDescription" name="Tanuki-Permanent-Marker" family="Tanuki Permanent Marker" pointSize="18"/>
-                                                                <state key="normal" title="もやしのソテー">
+                                                                <state key="normal">
                                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </state>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JpX-Mu-wHG">
                                                                 <rect key="frame" x="37.666666666666657" y="116.66666666666664" width="300" height="29.333333333333329"/>
                                                                 <fontDescription key="fontDescription" name="Tanuki-Permanent-Marker" family="Tanuki Permanent Marker" pointSize="18"/>
-                                                                <state key="normal" title="チンゲンサイのスープ">
+                                                                <state key="normal">
                                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </state>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o93-Np-Mvx">
                                                                 <rect key="frame" x="37.666666666666657" y="146.00000000000003" width="300" height="29.333333333333343"/>
                                                                 <fontDescription key="fontDescription" name="Tanuki-Permanent-Marker" family="Tanuki Permanent Marker" pointSize="18"/>
-                                                                <state key="normal" title="メープルジャム">
+                                                                <state key="normal">
                                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </state>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lQc-Ok-fGn">
                                                                 <rect key="frame" x="37.666666666666657" y="175.33333333333334" width="300" height="29"/>
                                                                 <fontDescription key="fontDescription" name="Tanuki-Permanent-Marker" family="Tanuki Permanent Marker" pointSize="18"/>
-                                                                <state key="normal" title="フルーツゼリー">
+                                                                <state key="normal">
                                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </state>
                                                             </button>
@@ -169,36 +169,111 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hEC-Qt-huh">
                                                         <rect key="frame" x="0.0" y="299.33333333333331" width="375" height="65.666666666666686"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="エネルギー：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yaN-Da-ZGb">
-                                                                <rect key="frame" x="17" y="0.0" width="95" height="15"/>
-                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <fontDescription key="fontDescription" name="Tanuki-Permanent-Marker" family="Tanuki Permanent Marker" pointSize="15"/>
-                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="タンパク質：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EKu-GI-eZS">
-                                                                <rect key="frame" x="193" y="0.0" width="93" height="15"/>
-                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <fontDescription key="fontDescription" name="Tanuki-Permanent-Marker" family="Tanuki Permanent Marker" pointSize="15"/>
-                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="脂質：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SCI-vp-Cr8">
-                                                                <rect key="frame" x="17" y="23" width="45" height="15"/>
-                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <fontDescription key="fontDescription" name="Tanuki-Permanent-Marker" family="Tanuki Permanent Marker" pointSize="15"/>
-                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="塩分：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EpP-NS-vdN">
-                                                                <rect key="frame" x="193" y="23" width="45" height="15"/>
-                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <fontDescription key="fontDescription" name="Tanuki-Permanent-Marker" family="Tanuki Permanent Marker" pointSize="15"/>
-                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yZg-iQ-ZhL">
+                                                                <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
+                                                                <subviews>
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rzm-3q-aJk">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="37.666666666666664" height="46"/>
+                                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    </view>
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jcf-Dc-Dqh">
+                                                                        <rect key="frame" x="337.66666666666669" y="0.0" width="37.333333333333314" height="46"/>
+                                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    </view>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="エネルギー：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yaN-Da-ZGb">
+                                                                        <rect key="frame" x="37.666666666666664" y="0.0" width="93.666666666666686" height="23"/>
+                                                                        <fontDescription key="fontDescription" name="Tanuki-Permanent-Marker" family="Tanuki Permanent Marker" pointSize="14"/>
+                                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="800 kcal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y8A-iS-jgc">
+                                                                        <rect key="frame" x="131.33333333333334" y="0.0" width="93.666666666666657" height="23"/>
+                                                                        <fontDescription key="fontDescription" name="Tanuki-Permanent-Marker" family="Tanuki Permanent Marker" pointSize="15"/>
+                                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="脂質：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SCI-vp-Cr8">
+                                                                        <rect key="frame" x="225" y="0.0" width="56.333333333333314" height="23"/>
+                                                                        <fontDescription key="fontDescription" name="Tanuki-Permanent-Marker" family="Tanuki Permanent Marker" pointSize="15"/>
+                                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="27 g" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GZY-hp-VZ9">
+                                                                        <rect key="frame" x="281.33333333333331" y="0.0" width="56.333333333333314" height="23"/>
+                                                                        <fontDescription key="fontDescription" name="Tanuki-Permanent-Marker" family="Tanuki Permanent Marker" pointSize="15"/>
+                                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="たんぱく質：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EKu-GI-eZS">
+                                                                        <rect key="frame" x="37.666666666666664" y="23" width="93.666666666666686" height="23"/>
+                                                                        <fontDescription key="fontDescription" name="Tanuki-Permanent-Marker" family="Tanuki Permanent Marker" pointSize="14"/>
+                                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25.3 g" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r8K-gx-wh0">
+                                                                        <rect key="frame" x="131.33333333333334" y="23" width="93.666666666666657" height="23"/>
+                                                                        <fontDescription key="fontDescription" name="Tanuki-Permanent-Marker" family="Tanuki Permanent Marker" pointSize="15"/>
+                                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="塩分：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EpP-NS-vdN">
+                                                                        <rect key="frame" x="225" y="23" width="45" height="23"/>
+                                                                        <fontDescription key="fontDescription" name="Tanuki-Permanent-Marker" family="Tanuki Permanent Marker" pointSize="15"/>
+                                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2.3 g" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Tl-sN-HGa">
+                                                                        <rect key="frame" x="281.33333333333331" y="23" width="56.333333333333314" height="23"/>
+                                                                        <fontDescription key="fontDescription" name="Tanuki-Permanent-Marker" family="Tanuki Permanent Marker" pointSize="15"/>
+                                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstItem="Jcf-Dc-Dqh" firstAttribute="top" secondItem="yZg-iQ-ZhL" secondAttribute="top" id="4qT-h0-1lt"/>
+                                                                    <constraint firstItem="GZY-hp-VZ9" firstAttribute="leading" secondItem="SCI-vp-Cr8" secondAttribute="trailing" id="7UB-cU-QjZ"/>
+                                                                    <constraint firstItem="r8K-gx-wh0" firstAttribute="leading" secondItem="EKu-GI-eZS" secondAttribute="trailing" id="7tl-Sw-uZs"/>
+                                                                    <constraint firstItem="yaN-Da-ZGb" firstAttribute="width" secondItem="yZg-iQ-ZhL" secondAttribute="width" multiplier="0.25" id="8Cs-Sj-aBj"/>
+                                                                    <constraint firstItem="yaN-Da-ZGb" firstAttribute="leading" secondItem="Rzm-3q-aJk" secondAttribute="trailing" id="8Qr-ZI-aJh"/>
+                                                                    <constraint firstAttribute="bottom" secondItem="1Tl-sN-HGa" secondAttribute="bottom" id="9qd-pj-wGk"/>
+                                                                    <constraint firstItem="SCI-vp-Cr8" firstAttribute="top" secondItem="yZg-iQ-ZhL" secondAttribute="top" id="BDK-Da-Zp2"/>
+                                                                    <constraint firstItem="1Tl-sN-HGa" firstAttribute="leading" secondItem="GZY-hp-VZ9" secondAttribute="leading" id="Bqq-iy-pQm"/>
+                                                                    <constraint firstItem="y8A-iS-jgc" firstAttribute="height" secondItem="yaN-Da-ZGb" secondAttribute="height" id="CyY-rn-Fpc"/>
+                                                                    <constraint firstItem="r8K-gx-wh0" firstAttribute="width" secondItem="y8A-iS-jgc" secondAttribute="width" id="EGO-SB-SqM"/>
+                                                                    <constraint firstItem="y8A-iS-jgc" firstAttribute="leading" secondItem="yaN-Da-ZGb" secondAttribute="trailing" id="FpW-20-n6u"/>
+                                                                    <constraint firstItem="1Tl-sN-HGa" firstAttribute="height" secondItem="EKu-GI-eZS" secondAttribute="height" id="H1Q-K7-eYT"/>
+                                                                    <constraint firstItem="SCI-vp-Cr8" firstAttribute="width" secondItem="yZg-iQ-ZhL" secondAttribute="width" multiplier="0.15" id="Ht4-Bz-fLM"/>
+                                                                    <constraint firstAttribute="bottom" secondItem="EpP-NS-vdN" secondAttribute="bottom" id="IYs-vs-wRR"/>
+                                                                    <constraint firstAttribute="bottom" secondItem="Rzm-3q-aJk" secondAttribute="bottom" id="K9F-4C-yDY"/>
+                                                                    <constraint firstItem="y8A-iS-jgc" firstAttribute="width" secondItem="yZg-iQ-ZhL" secondAttribute="width" multiplier="0.25" id="KZv-cA-5cU"/>
+                                                                    <constraint firstItem="Jcf-Dc-Dqh" firstAttribute="width" secondItem="yZg-iQ-ZhL" secondAttribute="width" multiplier="0.1" id="NnC-jS-fQI"/>
+                                                                    <constraint firstItem="SCI-vp-Cr8" firstAttribute="leading" secondItem="y8A-iS-jgc" secondAttribute="trailing" id="PED-Tt-aBa"/>
+                                                                    <constraint firstItem="EKu-GI-eZS" firstAttribute="leading" secondItem="Rzm-3q-aJk" secondAttribute="trailing" id="PtY-h0-bvo"/>
+                                                                    <constraint firstItem="EpP-NS-vdN" firstAttribute="leading" secondItem="SCI-vp-Cr8" secondAttribute="leading" id="Q79-3S-9pI"/>
+                                                                    <constraint firstItem="yaN-Da-ZGb" firstAttribute="height" secondItem="yZg-iQ-ZhL" secondAttribute="height" multiplier="0.5" id="a2t-q2-OqX"/>
+                                                                    <constraint firstItem="Rzm-3q-aJk" firstAttribute="top" secondItem="yZg-iQ-ZhL" secondAttribute="top" id="bxl-Np-26W"/>
+                                                                    <constraint firstItem="GZY-hp-VZ9" firstAttribute="width" secondItem="SCI-vp-Cr8" secondAttribute="width" id="c7w-4X-Oeq"/>
+                                                                    <constraint firstAttribute="bottom" secondItem="r8K-gx-wh0" secondAttribute="bottom" id="cgv-8G-vqz"/>
+                                                                    <constraint firstItem="r8K-gx-wh0" firstAttribute="height" secondItem="EKu-GI-eZS" secondAttribute="height" id="ctH-ko-Oz6"/>
+                                                                    <constraint firstAttribute="bottom" secondItem="Jcf-Dc-Dqh" secondAttribute="bottom" id="cvC-wx-Adj"/>
+                                                                    <constraint firstItem="y8A-iS-jgc" firstAttribute="top" secondItem="yZg-iQ-ZhL" secondAttribute="top" id="gqr-7g-4XM"/>
+                                                                    <constraint firstItem="GZY-hp-VZ9" firstAttribute="top" secondItem="yZg-iQ-ZhL" secondAttribute="top" id="iHM-dp-r0V"/>
+                                                                    <constraint firstItem="1Tl-sN-HGa" firstAttribute="width" secondItem="GZY-hp-VZ9" secondAttribute="width" id="ihF-8E-4MF"/>
+                                                                    <constraint firstItem="GZY-hp-VZ9" firstAttribute="height" secondItem="yaN-Da-ZGb" secondAttribute="height" id="ins-HL-cJH"/>
+                                                                    <constraint firstItem="y8A-iS-jgc" firstAttribute="leading" secondItem="r8K-gx-wh0" secondAttribute="leading" id="k7C-7x-dqw"/>
+                                                                    <constraint firstItem="Rzm-3q-aJk" firstAttribute="width" secondItem="yZg-iQ-ZhL" secondAttribute="width" multiplier="0.1" id="kuU-RS-AhC"/>
+                                                                    <constraint firstItem="EpP-NS-vdN" firstAttribute="height" secondItem="EKu-GI-eZS" secondAttribute="height" id="oqh-rV-cxD"/>
+                                                                    <constraint firstItem="yaN-Da-ZGb" firstAttribute="top" secondItem="yZg-iQ-ZhL" secondAttribute="top" id="pXK-lS-noD"/>
+                                                                    <constraint firstItem="SCI-vp-Cr8" firstAttribute="height" secondItem="yaN-Da-ZGb" secondAttribute="height" id="pz3-lI-OaH"/>
+                                                                    <constraint firstAttribute="bottom" secondItem="EKu-GI-eZS" secondAttribute="bottom" id="qLu-0V-0o0"/>
+                                                                    <constraint firstItem="Rzm-3q-aJk" firstAttribute="leading" secondItem="yZg-iQ-ZhL" secondAttribute="leading" id="v6u-hj-jxY"/>
+                                                                    <constraint firstItem="EKu-GI-eZS" firstAttribute="height" secondItem="yZg-iQ-ZhL" secondAttribute="height" multiplier="0.5" id="y1b-zr-qq1"/>
+                                                                    <constraint firstAttribute="trailing" secondItem="Jcf-Dc-Dqh" secondAttribute="trailing" id="yii-Rp-Vgn"/>
+                                                                </constraints>
+                                                            </view>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kvb-CD-ohf">
-                                                                <rect key="frame" x="0.0" y="52.333333333333371" width="365" height="13.333333333333329"/>
+                                                                <rect key="frame" x="290" y="46" width="75" height="19.666666666666671"/>
                                                                 <fontDescription key="fontDescription" name="Tanuki-Permanent-Marker" family="Tanuki Permanent Marker" pointSize="13"/>
                                                                 <state key="normal" title="詳細&gt;        ">
                                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -207,9 +282,15 @@
                                                         </subviews>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
-                                                            <constraint firstItem="Kvb-CD-ohf" firstAttribute="height" secondItem="hEC-Qt-huh" secondAttribute="height" multiplier="0.2" id="3zP-ov-zmG"/>
-                                                            <constraint firstItem="Kvb-CD-ohf" firstAttribute="leading" secondItem="hEC-Qt-huh" secondAttribute="leading" id="iAI-qj-Mfo"/>
+                                                            <constraint firstItem="Kvb-CD-ohf" firstAttribute="height" secondItem="hEC-Qt-huh" secondAttribute="height" multiplier="0.3" id="3zP-ov-zmG"/>
+                                                            <constraint firstItem="Kvb-CD-ohf" firstAttribute="width" secondItem="hEC-Qt-huh" secondAttribute="width" multiplier="0.2" id="SyX-hQ-Bb9"/>
+                                                            <constraint firstAttribute="trailing" secondItem="yZg-iQ-ZhL" secondAttribute="trailing" id="a2U-5p-Gjq"/>
+                                                            <constraint firstItem="Kvb-CD-ohf" firstAttribute="top" secondItem="yZg-iQ-ZhL" secondAttribute="bottom" id="f8W-NW-qvS"/>
                                                             <constraint firstAttribute="trailing" secondItem="Kvb-CD-ohf" secondAttribute="trailing" constant="10" id="iZY-fu-2BA"/>
+                                                            <constraint firstItem="yZg-iQ-ZhL" firstAttribute="width" secondItem="hEC-Qt-huh" secondAttribute="width" id="k9D-BM-mV7"/>
+                                                            <constraint firstItem="yZg-iQ-ZhL" firstAttribute="height" secondItem="hEC-Qt-huh" secondAttribute="height" multiplier="0.7" id="rm3-Qk-Z0n"/>
+                                                            <constraint firstItem="yZg-iQ-ZhL" firstAttribute="leading" secondItem="hEC-Qt-huh" secondAttribute="leading" id="xov-h0-fTx"/>
+                                                            <constraint firstItem="yZg-iQ-ZhL" firstAttribute="top" secondItem="hEC-Qt-huh" secondAttribute="top" id="yMl-3w-nsa"/>
                                                             <constraint firstAttribute="bottom" secondItem="Kvb-CD-ohf" secondAttribute="bottom" id="yoF-t4-qzD"/>
                                                         </constraints>
                                                     </view>
@@ -271,26 +352,115 @@
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="table.png" translatesAutoresizingMaskIntoConstraints="NO" id="JOP-O8-Q8t" customClass="table">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="289.66666666666669"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F0G-BG-Eqj">
-                                                <rect key="frame" x="0.0" y="129" width="375" height="32"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Tanuki-Permanent-Marker" family="Tanuki Permanent Marker" pointSize="20"/>
-                                                <state key="normal" title="RESET">
-                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="resetAreaSettingBtn:" destination="zrc-n2-a0F" eventType="touchUpInside" id="7qS-gk-BJi"/>
-                                                </connections>
-                                            </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zY1-Z0-er3">
+                                                <rect key="frame" x="18.666666666666657" y="0.0" width="337.66666666666674" height="237.66666666666666"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tray.png" translatesAutoresizingMaskIntoConstraints="NO" id="Fr7-Hj-XV3">
+                                                        <rect key="frame" x="0.0" y="6" width="337.66666666666669" height="225.66666666666666"/>
+                                                    </imageView>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QQv-aq-5UQ">
+                                                        <rect key="frame" x="17" y="-21.666666666666686" width="303.66666666666669" height="237.66666666666666"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZLI-uX-CWd" userLabel="3">
+                                                                <rect key="frame" x="90" y="102.99999999999994" width="123.66666666666669" height="123.33333333333331"/>
+                                                                <state key="normal" title="3"/>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Voa-CI-wB7">
+                                                                <rect key="frame" x="0.0" y="0.0" width="123.33333333333333" height="123.66666666666667"/>
+                                                                <state key="normal" title="2"/>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9kv-Xj-pcl">
+                                                                <rect key="frame" x="180.33333333333334" y="0.0" width="123.33333333333334" height="123.66666666666667"/>
+                                                                <state key="normal" title="5"/>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x7n-vz-iPd" userLabel="4">
+                                                                <rect key="frame" x="180.33333333333334" y="92.666666666666686" width="123.33333333333334" height="123.33333333333331"/>
+                                                                <state key="normal" title="4"/>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KKd-FO-apB" userLabel="7">
+                                                                <rect key="frame" x="106" y="10" width="74.333333333333314" height="74.333333333333329"/>
+                                                                <state key="normal" title="7"/>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wO1-MQ-rQ3">
+                                                                <rect key="frame" x="123.33333333333334" y="46.999999999999943" width="74.333333333333343" height="74"/>
+                                                                <state key="normal" title="6"/>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8e1-t5-o0q">
+                                                                <rect key="frame" x="0.0" y="92.666666666666686" width="123.33333333333333" height="123.33333333333331"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="8e1-t5-o0q" secondAttribute="height" multiplier="1:1" id="54b-0C-au4"/>
+                                                                </constraints>
+                                                                <state key="normal" title="1"/>
+                                                            </button>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstItem="9kv-Xj-pcl" firstAttribute="top" secondItem="QQv-aq-5UQ" secondAttribute="top" id="4Rp-JU-EaM"/>
+                                                            <constraint firstItem="x7n-vz-iPd" firstAttribute="width" secondItem="8e1-t5-o0q" secondAttribute="width" id="Cvi-Iv-fwB"/>
+                                                            <constraint firstItem="Voa-CI-wB7" firstAttribute="top" secondItem="QQv-aq-5UQ" secondAttribute="top" multiplier="0.9" id="Do0-lk-F04"/>
+                                                            <constraint firstItem="wO1-MQ-rQ3" firstAttribute="width" secondItem="8e1-t5-o0q" secondAttribute="width" multiplier="0.6" id="G0i-Bw-5pB"/>
+                                                            <constraint firstItem="8e1-t5-o0q" firstAttribute="height" secondItem="Voa-CI-wB7" secondAttribute="height" id="HG0-Zw-c5O"/>
+                                                            <constraint firstItem="8e1-t5-o0q" firstAttribute="leading" secondItem="QQv-aq-5UQ" secondAttribute="leading" id="Hge-lw-qHg"/>
+                                                            <constraint firstItem="Voa-CI-wB7" firstAttribute="leading" secondItem="QQv-aq-5UQ" secondAttribute="leading" id="INl-M6-LV8"/>
+                                                            <constraint firstItem="ZLI-uX-CWd" firstAttribute="width" secondItem="8e1-t5-o0q" secondAttribute="width" id="LKz-pl-lOp"/>
+                                                            <constraint firstItem="ZLI-uX-CWd" firstAttribute="height" secondItem="8e1-t5-o0q" secondAttribute="height" id="V9r-9I-uom"/>
+                                                            <constraint firstAttribute="bottom" secondItem="x7n-vz-iPd" secondAttribute="bottom" multiplier="1.1" id="VGP-2j-bHw"/>
+                                                            <constraint firstItem="ZLI-uX-CWd" firstAttribute="centerX" secondItem="QQv-aq-5UQ" secondAttribute="centerX" id="W1f-iP-JYc"/>
+                                                            <constraint firstItem="KKd-FO-apB" firstAttribute="width" secondItem="wO1-MQ-rQ3" secondAttribute="width" id="Whe-Wa-CgV"/>
+                                                            <constraint firstAttribute="trailing" secondItem="x7n-vz-iPd" secondAttribute="trailing" id="XHo-dm-QNo"/>
+                                                            <constraint firstItem="8e1-t5-o0q" firstAttribute="height" secondItem="QQv-aq-5UQ" secondAttribute="height" multiplier="0.52" id="bka-I8-Pk1"/>
+                                                            <constraint firstItem="8e1-t5-o0q" firstAttribute="top" secondItem="KKd-FO-apB" secondAttribute="bottom" multiplier="1.1" id="bu8-mO-H7n"/>
+                                                            <constraint firstAttribute="bottom" secondItem="ZLI-uX-CWd" secondAttribute="bottom" multiplier="1.05" id="cZy-F1-B20"/>
+                                                            <constraint firstItem="9kv-Xj-pcl" firstAttribute="width" secondItem="8e1-t5-o0q" secondAttribute="width" id="f2I-Yz-48R"/>
+                                                            <constraint firstItem="9kv-Xj-pcl" firstAttribute="leading" secondItem="KKd-FO-apB" secondAttribute="trailing" id="kjK-T5-HU9"/>
+                                                            <constraint firstItem="ZLI-uX-CWd" firstAttribute="top" secondItem="wO1-MQ-rQ3" secondAttribute="bottom" multiplier="0.85" id="nIL-Gf-YN9"/>
+                                                            <constraint firstItem="9kv-Xj-pcl" firstAttribute="height" secondItem="8e1-t5-o0q" secondAttribute="height" id="pr9-2Z-pGJ"/>
+                                                            <constraint firstItem="wO1-MQ-rQ3" firstAttribute="height" secondItem="8e1-t5-o0q" secondAttribute="height" multiplier="0.6" id="qCZ-h7-cPy"/>
+                                                            <constraint firstItem="x7n-vz-iPd" firstAttribute="height" secondItem="8e1-t5-o0q" secondAttribute="height" id="rSt-rx-rhA"/>
+                                                            <constraint firstItem="8e1-t5-o0q" firstAttribute="width" secondItem="Voa-CI-wB7" secondAttribute="width" id="sfl-DW-jSY"/>
+                                                            <constraint firstItem="KKd-FO-apB" firstAttribute="height" secondItem="wO1-MQ-rQ3" secondAttribute="height" id="vNe-ks-gee"/>
+                                                            <constraint firstAttribute="trailing" secondItem="9kv-Xj-pcl" secondAttribute="trailing" id="ysa-zM-WEP"/>
+                                                            <constraint firstAttribute="bottom" secondItem="8e1-t5-o0q" secondAttribute="bottom" multiplier="1.1" id="z8S-Dy-hXX"/>
+                                                            <constraint firstItem="wO1-MQ-rQ3" firstAttribute="leading" secondItem="Voa-CI-wB7" secondAttribute="trailing" id="zcl-I7-09p"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="Fr7-Hj-XV3" firstAttribute="height" secondItem="zY1-Z0-er3" secondAttribute="height" multiplier="0.95" id="ANy-J2-PXc"/>
+                                                    <constraint firstItem="Fr7-Hj-XV3" firstAttribute="height" secondItem="QQv-aq-5UQ" secondAttribute="height" multiplier="0.95" id="HDp-He-kWk"/>
+                                                    <constraint firstItem="QQv-aq-5UQ" firstAttribute="width" secondItem="zY1-Z0-er3" secondAttribute="width" multiplier="0.9" id="Pa1-oK-CZa"/>
+                                                    <constraint firstItem="Fr7-Hj-XV3" firstAttribute="centerY" secondItem="zY1-Z0-er3" secondAttribute="centerY" id="W8K-Tk-yeQ"/>
+                                                    <constraint firstItem="Fr7-Hj-XV3" firstAttribute="centerX" secondItem="zY1-Z0-er3" secondAttribute="centerX" id="een-Oe-9Ch"/>
+                                                    <constraint firstItem="Fr7-Hj-XV3" firstAttribute="width" secondItem="zY1-Z0-er3" secondAttribute="width" id="p5E-Xb-ier"/>
+                                                    <constraint firstAttribute="bottom" secondItem="QQv-aq-5UQ" secondAttribute="bottom" multiplier="1.1" id="v6Q-NH-c9u"/>
+                                                    <constraint firstItem="Fr7-Hj-XV3" firstAttribute="centerX" secondItem="QQv-aq-5UQ" secondAttribute="centerX" id="yzU-G7-z6o"/>
+                                                </constraints>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="JOP-O8-Q8t" secondAttribute="bottom" id="CeS-Mg-Uc5"/>
+                                            <constraint firstItem="zY1-Z0-er3" firstAttribute="top" secondItem="j85-5t-IzA" secondAttribute="top" id="Phq-yD-3MJ"/>
                                             <constraint firstItem="JOP-O8-Q8t" firstAttribute="leading" secondItem="j85-5t-IzA" secondAttribute="leading" id="Xlz-Bo-r3s"/>
                                             <constraint firstItem="JOP-O8-Q8t" firstAttribute="top" secondItem="j85-5t-IzA" secondAttribute="top" id="aC8-z0-uFC"/>
+                                            <constraint firstItem="zY1-Z0-er3" firstAttribute="width" secondItem="j85-5t-IzA" secondAttribute="width" multiplier="0.9" id="bJ3-OG-Jg1"/>
+                                            <constraint firstItem="zY1-Z0-er3" firstAttribute="centerX" secondItem="j85-5t-IzA" secondAttribute="centerX" id="dzj-yx-GhS"/>
+                                            <constraint firstItem="zY1-Z0-er3" firstAttribute="height" secondItem="j85-5t-IzA" secondAttribute="height" multiplier="0.82" id="owU-am-Bc8"/>
                                             <constraint firstAttribute="trailing" secondItem="JOP-O8-Q8t" secondAttribute="trailing" id="seP-MN-6a2"/>
                                         </constraints>
                                     </view>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F0G-BG-Eqj">
+                                        <rect key="frame" x="0.0" y="669" width="375" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Tanuki-Permanent-Marker" family="Tanuki Permanent Marker" pointSize="20"/>
+                                        <state key="normal" title="RESET">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="resetAreaSettingBtn:" destination="zrc-n2-a0F" eventType="touchUpInside" id="7qS-gk-BJi"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -334,7 +504,30 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="dateLabel" destination="KFo-Ss-vNG" id="whr-Et-NFt"/>
+                        <outlet property="energyLabel" destination="yaN-Da-ZGb" id="gkj-O4-IQS"/>
+                        <outlet property="energyVal" destination="y8A-iS-jgc" id="kAE-Nf-JD9"/>
+                        <outlet property="fatLebel" destination="SCI-vp-Cr8" id="h5c-gs-9OQ"/>
+                        <outlet property="fatVal" destination="GZY-hp-VZ9" id="AKc-zE-2jf"/>
+                        <outlet property="illustBtn1" destination="8e1-t5-o0q" id="rQn-Pc-cVA"/>
+                        <outlet property="illustBtn2" destination="Voa-CI-wB7" id="P8F-q1-18n"/>
+                        <outlet property="illustBtn3" destination="ZLI-uX-CWd" id="rX9-xb-TfE"/>
+                        <outlet property="illustBtn4" destination="x7n-vz-iPd" id="LbA-Qp-0nf"/>
+                        <outlet property="illustBtn5" destination="9kv-Xj-pcl" id="JwW-HT-NT3"/>
+                        <outlet property="illustBtn6" destination="wO1-MQ-rQ3" id="UwV-jU-LW0"/>
+                        <outlet property="illustBtn7" destination="KKd-FO-apB" id="6yd-8i-7Ua"/>
+                        <outlet property="menuBtn1" destination="TUy-2f-CMn" id="swc-JO-Krr"/>
+                        <outlet property="menuBtn2" destination="i14-MY-a0f" id="fJB-Si-2n4"/>
+                        <outlet property="menuBtn3" destination="9zK-Kv-3KC" id="Q10-Vg-Zmg"/>
+                        <outlet property="menuBtn4" destination="w0q-dy-jfA" id="BoV-Tt-QTc"/>
+                        <outlet property="menuBtn5" destination="JpX-Mu-wHG" id="zEP-vW-CG1"/>
+                        <outlet property="menuBtn6" destination="o93-Np-Mvx" id="bgb-M0-vQy"/>
+                        <outlet property="menuBtn7" destination="lQc-Ok-fGn" id="JfW-6y-gHJ"/>
                         <outlet property="naviTitle" destination="vwJ-cY-6ed" id="tEX-XS-NBT"/>
+                        <outlet property="proteinLabel" destination="EKu-GI-eZS" id="ai2-sv-rcH"/>
+                        <outlet property="proteinVal" destination="r8K-gx-wh0" id="ahm-YA-rZ5"/>
+                        <outlet property="saltLabel" destination="EpP-NS-vdN" id="Hsg-RZ-3P2"/>
+                        <outlet property="saltVal" destination="1Tl-sN-HGa" id="CIv-k0-SVg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N1Y-bF-jjo" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -344,7 +537,7 @@
         <!--View Controller-->
         <scene sceneID="awB-aE-xDJ">
             <objects>
-                <viewController id="G98-tW-T8I" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="calender" id="G98-tW-T8I" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jMj-Qa-ZcP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -355,7 +548,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6tv-fc-be4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1934" y="114"/>
+            <point key="canvasLocation" x="1878" y="-536"/>
         </scene>
         <!--設定-->
         <scene sceneID="q96-5B-uWt">
@@ -447,6 +640,7 @@
         <image name="ic_close" width="22" height="22"/>
         <image name="ic_setting" width="22" height="22"/>
         <image name="table.png" width="910" height="710"/>
+        <image name="tray.png" width="800" height="528"/>
     </resources>
     <color key="tintColor" red="0.27963119745254517" green="0.56953138113021851" blue="0.23460736870765686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
