@@ -50,7 +50,7 @@ class Illustration:NSObject{
         }else if (menuName.contains("てんぷら") || menuName.contains("フライ") || menuName.contains("あげ")){
             illustName = "sakana_fly"
         }else if (menuName.contains("うどん") || menuName.contains("にゅうめん")  ){
-            illustName = ""
+            illustName = "udon"
         }else if (menuName.contains("みそしる") || menuName.contains("あかだし") || menuName.contains("じる")){
             illustName = "misoshiru"
         }else if menuName.contains("いため"){
